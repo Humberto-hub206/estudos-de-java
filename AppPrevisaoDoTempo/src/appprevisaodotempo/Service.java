@@ -8,7 +8,7 @@ import org.json.JSONObject;
 
 public class Service {
     // coloque aqui sua chave da API do OpenWeatherMap
-    private static final String API_KEY = "0998255d6cfe5fe98c6d243a2195c03c"; 
+    private static final String API_KEY = ""; // chave da API 
 
     public ClimaDados getClima(String cidade) {
         try {
@@ -46,3 +46,4 @@ public class Service {
         }
     }
 }
+
